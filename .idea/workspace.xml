@@ -294,7 +294,7 @@
       <workItem from="1505176010269" duration="7546000" />
       <workItem from="1505443697860" duration="220000" />
       <workItem from="1505443945474" duration="31266000" />
-      <workItem from="1505535446886" duration="1499000" />
+      <workItem from="1505535446886" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="connected to MongoDB">
       <created>1505325809850</created>
@@ -307,7 +307,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66681000" />
+    <option name="totallyTimeSpent" value="66771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1215" height="804" extended-state="6" />
