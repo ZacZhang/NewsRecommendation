@@ -3,7 +3,8 @@ import _ from 'lodash';
 
 import React from 'react';
 
-import NewsCard from '../NewsCard/NewsCard'
+import Auth from '../Auth/Auth';
+import NewsCard from '../NewsCard/NewsCard';
 
 class NewsPanel extends React.Component{
     constructor() {
@@ -14,15 +15,12 @@ class NewsPanel extends React.Component{
 
     componentDidMount() {
         this.loadMoreNews();
-        this.loadMoreNews = _.debounce(this.loadMoreNews, 800);
+        this.loadMoreNews = _.debounce(this.loadMoreNews, 1000);
         window.addEventListener('scroll', this.handleScroll);
     }
 
     handleScroll() {
-        // scrolled distance
         let scrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
-
-        // whether scrolled to the bottom
         if ((window.innerHeight + scrollY) >= (document.body.offsetHeight - 50)) {
             console.log('Loading more news');
             this.loadMoreNews();
@@ -32,7 +30,11 @@ class NewsPanel extends React.Component{
     loadMoreNews() {
         let request = new Request('http://localhost:3000/news', {
             method: 'GET',
+            headers: {
+                'Authorization': 'bearer ' + Auth.getToken(),
+            },
             cache: false});
+
 
         fetch(request)
             .then((res) => res.json())
