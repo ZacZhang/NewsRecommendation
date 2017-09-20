@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b62a5f-182c-4116-8470-6de6c7855f03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news_pipeline_launcher.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news_pipeline/news_fetcher.py" afterPath="$PROJECT_DIR$/news_pipeline/news_fetcher.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend_server/operations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend_server/operations_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend_server/service.py" afterPath="$PROJECT_DIR$/backend_server/service.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/client/src/Base/Base.js" afterPath="$PROJECT_DIR$/web_server/client/src/Base/Base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/client/src/Login/LoginForm.js" afterPath="$PROJECT_DIR$/web_server/client/src/Login/LoginForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/client/src/NewsPanel/NewsPanel.js" afterPath="$PROJECT_DIR$/web_server/client/src/NewsPanel/NewsPanel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/client/src/SignUp/SignUpForm.js" afterPath="$PROJECT_DIR$/web_server/client/src/SignUp/SignUpForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/server/routes/news.js" afterPath="$PROJECT_DIR$/web_server/server/routes/news.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client.js" afterPath="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client_test.js" afterPath="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client_test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +30,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="198">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_server/client/src/Base/Base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_server/client/src/NewsPanel/NewsPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_server/server/routes/news.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rpc_client.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web_server/server/rpc_client/rpc_client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rpc_client_test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_server/server/rpc_client/rpc_client_test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -53,17 +115,11 @@
         <option value="$PROJECT_DIR$/web_server/src/App/App.js" />
         <option value="$PROJECT_DIR$/web_server/server/routes/index.js" />
         <option value="$PROJECT_DIR$/web_server/server/package.json" />
-        <option value="$PROJECT_DIR$/web_server/server/routes/news.js" />
         <option value="$PROJECT_DIR$/web_server/server/.gitignore" />
-        <option value="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client.js" />
-        <option value="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client_test.js" />
         <option value="$PROJECT_DIR$/backend_server/requirements.txt" />
         <option value="$PROJECT_DIR$/web_server/client/src/Auth/Auth.js" />
-        <option value="$PROJECT_DIR$/web_server/client/src/Base/Base.js" />
-        <option value="$PROJECT_DIR$/web_server/client/src/Login/LoginForm.js" />
         <option value="$PROJECT_DIR$/web_server/client/src/Login/LoginForm.css" />
         <option value="$PROJECT_DIR$/web_server/client/src/Login/LoginPage.js" />
-        <option value="$PROJECT_DIR$/web_server/client/src/SignUp/SignUpForm.js" />
         <option value="$PROJECT_DIR$/web_server/client/src/SignUp/SignUpForm.css" />
         <option value="$PROJECT_DIR$/web_server/client/src/SignUp/SignUpPage.js" />
         <option value="$PROJECT_DIR$/web_server/client/src/routes.js" />
@@ -74,11 +130,17 @@
         <option value="$PROJECT_DIR$/web_server/server/passport/signup_passport.js" />
         <option value="$PROJECT_DIR$/web_server/server/middleware/auth_checker.js" />
         <option value="$PROJECT_DIR$/web_server/server/models/main.js" />
-        <option value="$PROJECT_DIR$/web_server/client/src/NewsPanel/NewsPanel.js" />
         <option value="$PROJECT_DIR$/web_server/server/routes/auth.js" />
         <option value="$PROJECT_DIR$/web_server/server/app.js" />
         <option value="$PROJECT_DIR$/news_pipeline/news_monitor.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/web_server/client/src/Login/LoginForm.js" />
+        <option value="$PROJECT_DIR$/web_server/client/src/Base/Base.js" />
+        <option value="$PROJECT_DIR$/web_server/client/src/SignUp/SignUpForm.js" />
+        <option value="$PROJECT_DIR$/web_server/server/routes/news.js" />
+        <option value="$PROJECT_DIR$/web_server/client/src/NewsPanel/NewsPanel.js" />
+        <option value="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client_test.js" />
+        <option value="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client.js" />
       </list>
     </option>
   </component>
@@ -129,19 +191,40 @@
             <path>
               <item name="news-recommendation" type="b2602c69:ProjectViewProjectNode" />
               <item name="news-recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="web_server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="news-recommendation" type="b2602c69:ProjectViewProjectNode" />
               <item name="news-recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="news_pipeline" type="462c0819:PsiDirectoryNode" />
+              <item name="web_server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="news-recommendation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news-recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="web_server" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="news-recommendation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news-recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="web_server" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="news-recommendation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news-recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="web_server" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc_client" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,7 +276,8 @@
       <workItem from="1505443945474" duration="31266000" />
       <workItem from="1505535446886" duration="1826000" />
       <workItem from="1505782038853" duration="2917000" />
-      <workItem from="1505791410305" duration="7484000" />
+      <workItem from="1505791410305" duration="8079000" />
+      <workItem from="1505923414488" duration="7546000" />
     </task>
     <task id="LOCAL-00001" summary="connected to MongoDB">
       <created>1505325809850</created>
@@ -206,13 +290,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77409000" />
+    <option name="totallyTimeSpent" value="85550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1215" height="804" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2510288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2510288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -243,19 +326,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/web_server/client/src/Base/Base.js</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_server/src/App/App.css" />
-    <entry file="file://$PROJECT_DIR$/web_server/src/NewsPanel/NewsPanel.css" />
     <entry file="file://$PROJECT_DIR$/web_server/src/NewsCard/NewsCard.css" />
     <entry file="file://$PROJECT_DIR$/web_server/src/App/App.js" />
     <entry file="file://$PROJECT_DIR$/web_server/src/NewsPanel/NewsPanel.js" />
@@ -310,20 +385,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend_server/requirements.txt" />
-    <entry file="file://$PROJECT_DIR$/web_server/server/rpc_client/rpc_client_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_server/server/rpc_client/rpc_client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_server/client/src/Auth/Auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -338,16 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_server/client/src/Base/Base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_server/client/src/Login/LoginForm.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -359,13 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_server/client/src/Login/LoginForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="103" lean-forward="false" selection-start-line="16" selection-start-column="103" selection-end-line="16" selection-end-column="103" />
         </state>
       </provider>
     </entry>
@@ -387,13 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_server/server/routes/news.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -447,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_server/client/src/NewsPanel/NewsPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_server/server/models/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -482,27 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_server/client/src/SignUp/SignUpForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_server/client/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend_server/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/news_api_client_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -521,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -529,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -537,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,11 +551,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news_pipeline/tf_idf_test.py">
+    <entry file="file://$PROJECT_DIR$/news_pipeline/tf_idf_test.py" />
+    <entry file="file://$PROJECT_DIR$/news_pipeline_launcher.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_server/operations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -557,7 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news_pipeline_launcher.sh">
+    <entry file="file://$PROJECT_DIR$/backend_server/operations_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -567,8 +580,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_server/client/src/SignUp/SignUpForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="44" column="2" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_server/client/src/Login/LoginForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_server/client/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_server/client/src/Base/Base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_server/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_server/server/routes/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_server/client/src/NewsPanel/NewsPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_server/server/rpc_client/rpc_client_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_server/server/rpc_client/rpc_client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
