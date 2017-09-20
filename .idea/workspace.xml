@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b62a5f-182c-4116-8470-6de6c7855f03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news_pipeline/news_deduper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news_pipeline_launcher.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news_pipeline/news_fetcher.py" afterPath="$PROJECT_DIR$/news_pipeline/news_fetcher.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -194,7 +193,7 @@
       <workItem from="1505443945474" duration="31266000" />
       <workItem from="1505535446886" duration="1826000" />
       <workItem from="1505782038853" duration="2917000" />
-      <workItem from="1505791410305" duration="6843000" />
+      <workItem from="1505791410305" duration="7484000" />
     </task>
     <task id="LOCAL-00001" summary="connected to MongoDB">
       <created>1505325809850</created>
@@ -207,7 +206,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76768000" />
+    <option name="totallyTimeSpent" value="77409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1215" height="804" extended-state="6" />
@@ -255,7 +254,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_server/src/index.js" />
     <entry file="file://$PROJECT_DIR$/web_server/src/App/App.css" />
     <entry file="file://$PROJECT_DIR$/web_server/src/NewsPanel/NewsPanel.css" />
     <entry file="file://$PROJECT_DIR$/web_server/src/NewsCard/NewsCard.css" />
@@ -552,6 +550,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/news_pipeline/tf_idf_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news_pipeline_launcher.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
