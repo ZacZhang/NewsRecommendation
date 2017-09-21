@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b62a5f-182c-4116-8470-6de6c7855f03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend_server/operations.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend_server/operations_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/news_recommendation_service_client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news_recommendation_service/click_log_processor_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news_recommendation_service/news_classes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news_recommendation_service/recommendation_service.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend_server/service.py" afterPath="$PROJECT_DIR$/backend_server/service.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/client/src/Base/Base.js" afterPath="$PROJECT_DIR$/web_server/client/src/Base/Base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/client/src/Login/LoginForm.js" afterPath="$PROJECT_DIR$/web_server/client/src/Login/LoginForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/client/src/NewsPanel/NewsPanel.js" afterPath="$PROJECT_DIR$/web_server/client/src/NewsPanel/NewsPanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/client/src/SignUp/SignUpForm.js" afterPath="$PROJECT_DIR$/web_server/client/src/SignUp/SignUpForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/server/routes/news.js" afterPath="$PROJECT_DIR$/web_server/server/routes/news.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client.js" afterPath="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend_server/operations.py" afterPath="$PROJECT_DIR$/backend_server/operations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend_server/operations_test.py" afterPath="$PROJECT_DIR$/backend_server/operations_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/client/src/NewsCard/NewsCard.js" afterPath="$PROJECT_DIR$/web_server/client/src/NewsCard/NewsCard.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client_test.js" afterPath="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client_test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,28 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Base.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_server/client/src/Base/Base.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NewsPanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_server/client/src/NewsPanel/NewsPanel.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,31 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="news.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web_server/server/routes/news.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="288">
+              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rpc_client.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rpc_client.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_server/server/rpc_client/rpc_client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rpc_client_test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_server/server/rpc_client/rpc_client_test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+            <state relative-caret-position="108">
+              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -139,8 +104,12 @@
         <option value="$PROJECT_DIR$/web_server/client/src/SignUp/SignUpForm.js" />
         <option value="$PROJECT_DIR$/web_server/server/routes/news.js" />
         <option value="$PROJECT_DIR$/web_server/client/src/NewsPanel/NewsPanel.js" />
-        <option value="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client_test.js" />
         <option value="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client.js" />
+        <option value="$PROJECT_DIR$/web_server/client/src/NewsCard/NewsCard.js" />
+        <option value="$PROJECT_DIR$/web_server/server/rpc_client/rpc_client_test.js" />
+        <option value="$PROJECT_DIR$/news_recommendation_service/news_classes.py" />
+        <option value="$PROJECT_DIR$/news_recommendation_service/click_log_processor_test.py" />
+        <option value="$PROJECT_DIR$/common/news_recommendation_service_client.py" />
       </list>
     </option>
   </component>
@@ -186,38 +155,12 @@
             <path>
               <item name="news-recommendation" type="b2602c69:ProjectViewProjectNode" />
               <item name="news-recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="backend_server" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="news-recommendation" type="b2602c69:ProjectViewProjectNode" />
               <item name="news-recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="web_server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="news-recommendation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="news-recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="web_server" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="news-recommendation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="news-recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="web_server" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="news-recommendation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="news-recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="web_server" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="news-recommendation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="news-recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="web_server" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc_client" type="462c0819:PsiDirectoryNode" />
+              <item name="news_recommendation_service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,7 +220,7 @@
       <workItem from="1505535446886" duration="1826000" />
       <workItem from="1505782038853" duration="2917000" />
       <workItem from="1505791410305" duration="8079000" />
-      <workItem from="1505923414488" duration="7546000" />
+      <workItem from="1505923414488" duration="14837000" />
     </task>
     <task id="LOCAL-00001" summary="connected to MongoDB">
       <created>1505325809850</created>
@@ -290,12 +233,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85550000" />
+    <option name="totallyTimeSpent" value="92841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1215" height="804" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2510288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2307047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -331,24 +275,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_server/src/NewsCard/NewsCard.css" />
-    <entry file="file://$PROJECT_DIR$/web_server/src/App/App.js" />
-    <entry file="file://$PROJECT_DIR$/web_server/src/NewsPanel/NewsPanel.js" />
-    <entry file="file://$PROJECT_DIR$/web_server/src/NewsCard/NewsCard.js" />
-    <entry file="file://$PROJECT_DIR$/web_server/client/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_server/server/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_server/client/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -389,13 +315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_server/client/src/NewsCard/NewsCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -619,24 +538,8 @@
         <state relative-caret-position="378">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend_server/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_server/server/routes/news.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,16 +553,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web_server/server/rpc_client/rpc_client_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+        <state relative-caret-position="144">
+          <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_server/client/src/NewsCard/NewsCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web_server/server/rpc_client/rpc_client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_server/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation_service/click_log_processor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news_recommendation_service/news_classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news_recommendation_service/click_log_processor_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news_recommendation_service/click_log_processor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1475">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news_recommendation_service/recommendation_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/news_recommendation_service_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_server/server/routes/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding />
         </state>
       </provider>
