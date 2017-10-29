@@ -1,8 +1,6 @@
 import './NewsPanel.css';
 import _ from 'lodash';
-
 import React from 'react';
-
 import Auth from '../Auth/Auth';
 import NewsCard from '../NewsCard/NewsCard';
 
@@ -13,6 +11,7 @@ class NewsPanel extends React.Component{
         this.handleScroll = this.handleScroll.bind(this);
     }
 
+    // When the constructor is built, this function is called immediately
     componentDidMount() {
         this.loadMoreNews();
         this.loadMoreNews = _.debounce(this.loadMoreNews, 1000);
@@ -32,8 +31,7 @@ class NewsPanel extends React.Component{
             return;
         }
 
-        let url = 'http://localhost:3000/news/userId/' + Auth.getEmail()
-                    + '/pageNum/' + this.state.pageNum;
+        let url = 'http://localhost:3000/news/userId/' + Auth.getEmail() + '/pageNum/' + this.state.pageNum;
 
         let request = new Request(encodeURI(url), {
             method: 'GET',

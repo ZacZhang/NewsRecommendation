@@ -1,5 +1,5 @@
 import 'materialize-css/dist/css/materialize.min.css';
-import 'materialize-css/dist/js/materialize.min.js'
+import 'materialize-css/dist/js/materialize.min.js';
 
 import React from 'react';
 import logo from '../logo.png';
