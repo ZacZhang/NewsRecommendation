@@ -11,15 +11,17 @@ class NewsPanel extends React.Component{
         this.handleScroll = this.handleScroll.bind(this);
     }
 
-    // When the constructor is built, this function is called immediately
+    // when the constructor is built, this function is called immediately
     componentDidMount() {
         this.loadMoreNews();
+        // 去抖动，1秒中触发的所有loadMoreNews事件都会被当成只触发一次
         this.loadMoreNews = _.debounce(this.loadMoreNews, 1000);
         window.addEventListener('scroll', this.handleScroll);
     }
 
     handleScroll() {
         let scrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+        // if scroll to the bottom
         if ((window.innerHeight + scrollY) >= (document.body.offsetHeight - 50)) {
             console.log('Loading more news');
             this.loadMoreNews();

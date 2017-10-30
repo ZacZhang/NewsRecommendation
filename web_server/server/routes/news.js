@@ -1,6 +1,6 @@
-var express = require('express');
-var rpc_client = require('../rpc_client/rpc_client');
-var router = express.Router();
+let express = require('express');
+let rpc_client = require('../rpc_client/rpc_client');
+let router = express.Router();
 
 /* GET news list. */
 router.get('/userId/:userId/pageNum/:pageNum', function(req, res, next) {
