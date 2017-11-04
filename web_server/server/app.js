@@ -20,7 +20,9 @@ app.set('views', path.join(__dirname, '../client/build/'));
 app.set('view engine', 'jade');
 app.use('/static', express.static(path.join(__dirname, '../client/build/static/')));
 
+// TODO:开发的时候解决跨源问题，开发完之后可以删掉这行
 app.use(cors());
+
 app.use(bodyParser.json());
 
 // load passport strategies

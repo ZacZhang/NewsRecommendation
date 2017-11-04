@@ -3,4 +3,5 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="JSX" />
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="Python 2.7.10 (/usr/bin/python)" project-jdk-type="Python SDK" />
 </project>

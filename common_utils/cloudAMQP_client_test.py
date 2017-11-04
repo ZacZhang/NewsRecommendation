@@ -1,6 +1,6 @@
 from cloudAMQP_client import CloudAMQPClient
 
-CLOUDAMQP_URL = "amqp://oqocjgvc:wpDedI_G0-d_Tak-ZD35ObDlMrvr97bO@wombat.rmq.cloudamqp.com/oqocjgvc"
+CLOUDAMQP_URL = "amqp://vlagvbqp:zH8auLJC7sn8neTLOCiTdbvd6oO1r-TI@elephant.rmq.cloudamqp.com/vlagvbqp"
 
 TEST_QUEUE_NAME = 'test'
 
@@ -12,7 +12,7 @@ def test_basic():
 	client.sleep(10)
 	receivedMsg = client.getMessage()
 	assert sentMsg == receivedMsg
-	print "test_basic passed"
+	print "test_basic passed!"
 
 
 if __name__ == "__main__":

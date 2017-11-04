@@ -15,7 +15,7 @@
     "jade": "~1.11.0",
     "jayson": "^2.0.4",
     "jsonwebtoken": "^8.0.1",
-    "mongoose": "^4.11.11",
+    "mongoose": "^4.13.0",
     "morgan": "~1.8.1",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",

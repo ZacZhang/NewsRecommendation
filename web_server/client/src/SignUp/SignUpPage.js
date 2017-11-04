@@ -31,13 +31,13 @@ class SignUpPage extends React.Component {
 
         console.log('email:', email);
         console.log('password:', password);
-        console.log('confirm_assword:', confirm_password);
+        console.log('confirm_password:', confirm_password);
 
         if (password !== confirm_password) {
             return;
         }
 
-        // Post registeration data
+        // post registration data
         fetch('http://localhost:3000/auth/signup', {
             method: 'POST',
             cache: false,

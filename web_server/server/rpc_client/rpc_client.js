@@ -1,7 +1,7 @@
-var jayson = require('jayson');
+let jayson = require('jayson');
 
 // create a client
-var client = jayson.client.http({
+let client = jayson.client.http({
     port: 4040,
     hostname: 'localhost'
 });
@@ -26,4 +26,5 @@ function logNewsClickForUser(user_id, news_id) {
 module.exports = {
     getNewsSummariesForUser : getNewsSummariesForUser,
     logNewsClickForUser : logNewsClickForUser
-}
+};
+
