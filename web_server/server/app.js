@@ -1,17 +1,17 @@
 let bodyParser = require('body-parser');
 let cors = require('cors');
 let express = require('express');
-let mongoose = require('mongoose');
 let passport = require('passport');
 let path = require('path');
 
+let auth = require('./routes/auth');
 let index = require('./routes/index');
 let news = require('./routes/news');
-let auth = require('./routes/auth');
 
 let app = express();
 
 let config = require('./config/config.json');
+// connect to cloud MongoDB for user info
 require('./models/main.js').connect(config.mongoDbUri);
 
 // view engine setup

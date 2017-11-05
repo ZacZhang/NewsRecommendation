@@ -7,7 +7,7 @@ import redis
 import sys
 
 # import common dir in parent directory
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common_utils'))
 import news_api_client
 from cloudAMQP_client import CloudAMQPClient
 
@@ -15,7 +15,8 @@ REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 NEWS_TIME_OUT_IN_SECONDS = 3600 * 24
 
-SCRAPE_NEWS_TASK_QUEUE_URL = "amqp://oqocjgvc:wpDedI_G0-d_Tak-ZD35ObDlMrvr97bO@wombat.rmq.cloudamqp.com/oqocjgvc"
+#SCRAPE_NEWS_TASK_QUEUE_URL = "amqp://oqocjgvc:wpDedI_G0-d_Tak-ZD35ObDlMrvr97bO@wombat.rmq.cloudamqp.com/oqocjgvc"
+SCRAPE_NEWS_TASK_QUEUE_URL = "amqp://vlagvbqp:zH8auLJC7sn8neTLOCiTdbvd6oO1r-TI@elephant.rmq.cloudamqp.com/vlagvbqp"
 SCRAPE_NEWS_TASK_QUEUE_NAME = "news-recommendation-scrape-news-task-queue"
 SLEEP_TIME_IN_SECONDS = 10
 
@@ -49,13 +50,14 @@ while True:
 			news['digest'] = news_digest
 
 			if news['publishedAt'] is None:
+				# set to current system time
 				# format: YYYY-MM-DDTHH:MM:SS in UTC
 				news['publishedAt'] = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
-		redis_client.set(news_digest, news)
-		redis_client.expire(news_digest, NEWS_TIME_OUT_IN_SECONDS)
+			redis_client.set(news_digest, news)
+			redis_client.expire(news_digest, NEWS_TIME_OUT_IN_SECONDS)
 
-		cloudAMQP_client.sendMessage(news)
+			cloudAMQP_client.sendMessage(news)
 
 	print "Fetched %d new news." % num_of_new_news
 

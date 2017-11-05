@@ -8,13 +8,13 @@ from dateutil import parser
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # import common package in parent directory
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common_utils'))
 
 import mongodb_client
 import news_topic_modeling_service_client
 from cloudAMQP_client import CloudAMQPClient
 
-DEDUPE_NEWS_TASK_QUEUE_URL = "amqp://upoxrqsz:sAEuVrTktZhU6r3g1cPUoJMOcJ-i1VlQ@rhino.rmq.cloudamqp.com/upoxrqsz"
+DEDUPE_NEWS_TASK_QUEUE_URL = "amqp://vlagvbqp:zH8auLJC7sn8neTLOCiTdbvd6oO1r-TI@elephant.rmq.cloudamqp.com/vlagvbqp"
 DEDUPE_NEWS_TASK_QUEUE_NAME = "news-recommendation-dedupe-news-task-queue"
 
 SLEEP_TIME_IN_SECONDS = 1
@@ -55,11 +55,9 @@ def handle_message(msg):
 
         for row in range(1, rows):
             if pairwise_sim[row, 0] > SAME_NEWS_SIMILARITY_THRESHOLD:
-                # Duplicated news. Ignore.
-                print "Duplicated news. Ignore."
+                print "Duplicated news. Ignored."
                 return
     task['publishedAt'] = parser.parse(task['publishedAt'])
-
 
     # Classify news
     title = task['title']

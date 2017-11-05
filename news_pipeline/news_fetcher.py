@@ -6,16 +6,16 @@ import sys
 from newspaper import Article
 
 # import common package in parent directory
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common_utils'))
 sys.path.append(os.path.join(os.path.dirname(__file__), 'scrapers'))
 
 import cnn_news_scraper
 from cloudAMQP_client import CloudAMQPClient
 
-SCRAPE_NEWS_TASK_QUEUE_URL = "amqp://oqocjgvc:wpDedI_G0-d_Tak-ZD35ObDlMrvr97bO@wombat.rmq.cloudamqp.com/oqocjgvc"
+SCRAPE_NEWS_TASK_QUEUE_URL = "amqp://vlagvbqp:zH8auLJC7sn8neTLOCiTdbvd6oO1r-TI@elephant.rmq.cloudamqp.com/vlagvbqp"
 SCRAPE_NEWS_TASK_QUEUE_NAME = "news-recommendation-scrape-news-task-queue"
 
-DEDUPE_NEWS_TASK_QUEUE_URL = "amqp://upoxrqsz:sAEuVrTktZhU6r3g1cPUoJMOcJ-i1VlQ@rhino.rmq.cloudamqp.com/upoxrqsz"
+DEDUPE_NEWS_TASK_QUEUE_URL = "amqp://vlagvbqp:zH8auLJC7sn8neTLOCiTdbvd6oO1r-TI@elephant.rmq.cloudamqp.com/vlagvbqp"
 DEDUPE_NEWS_TASK_QUEUE_NAME = "news-recommendation-dedupe-news-task-queue"
 
 
