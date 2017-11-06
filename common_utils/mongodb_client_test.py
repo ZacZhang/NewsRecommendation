@@ -6,8 +6,8 @@ def test_basic():
 	assert db.demo.count() == 0
 	db.demo.insert({'test': 456})
 	assert db.demo.count() == 1
-	db.demo.drop()
-	assert db.demo.count() == 0
+	#db.demo.drop()
+	#assert db.demo.count() == 0
 	print 'test_basic passed!'
 
 

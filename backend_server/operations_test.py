@@ -5,12 +5,12 @@ import sys
 from sets import Set
 
 # import common package in parent directory
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common_utils'))
 
 import mongodb_client
 from cloudAMQP_client import CloudAMQPClient
 
-LOG_CLICKS_TASK_QUEUE_URL = "amqp://wdxzttbx:ZeD0ETHpGpiVlhSpv10os6kiqdOUulEH@wombat.rmq.cloudamqp.com/wdxzttbx"
+LOG_CLICKS_TASK_QUEUE_URL = "amqp://vlagvbqp:zH8auLJC7sn8neTLOCiTdbvd6oO1r-TI@elephant.rmq.cloudamqp.com/vlagvbqp"
 LOG_CLICKS_TASK_QUEUE_NAME = "news-recommendation-log-clicks-task-queue"
 
 CLICK_LOGS_TABLE_NAME = 'click_logs'
@@ -20,7 +20,7 @@ cloudAMQP_client = CloudAMQPClient(LOG_CLICKS_TASK_QUEUE_URL, LOG_CLICKS_TASK_QU
 # Start Redis and MongoDB before running following tests.
 
 def test_getNewsSummariesForUser_basic():
-    news = operations.getNewsSummariesForUser('test', 1)
+    news = operations.getNewsSummariesForUser('testttt', 1)
     print news
     assert len(news) > 0
     print 'test_getNewsSummariesForUser_basic passed!'

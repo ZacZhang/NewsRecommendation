@@ -4,7 +4,7 @@ import pyjsonrpc
 import sys
 
 # import common package in parent directory
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common_utils'))
 
 import mongodb_client
 

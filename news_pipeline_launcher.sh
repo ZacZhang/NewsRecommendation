@@ -1,6 +1,9 @@
 #!/bin/bash
-service redis_6379 start
-service mongod start
+#service redis_6379 start
+#service mongod start
+
+brew services start redis
+brew services start mongodb
 
 pip install -r requirements.txt
 

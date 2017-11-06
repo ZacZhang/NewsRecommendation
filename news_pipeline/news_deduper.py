@@ -59,12 +59,11 @@ def handle_message(msg):
                 return
     task['publishedAt'] = parser.parse(task['publishedAt'])
 
-    # Classify news
+    # Classify news, assign topic
     title = task['title']
     if title is not None:
         topic = news_topic_modeling_service_client.classify(title)
         task['class'] = topic
-
 
     db[NEWS_TABLE_NAME].replace_one({'digest': task['digest']}, task, upsert=True)
 

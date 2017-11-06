@@ -12,7 +12,7 @@ from datetime import datetime
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common_utils'))
 
 import mongodb_client
-# import news_recommendation_service_client
+import news_recommendation_service_client
 
 from cloudAMQP_client import CloudAMQPClient
 
@@ -26,7 +26,7 @@ NEWS_LIMIT = 100
 NEWS_LIST_BATCH_SIZE = 10
 USER_NEWS_TIME_OUT_IN_SECONDS = 60
 
-LOG_CLICKS_TASK_QUEUE_URL = "amqp://wdxzttbx:ZeD0ETHpGpiVlhSpv10os6kiqdOUulEH@wombat.rmq.cloudamqp.com/wdxzttbx"
+LOG_CLICKS_TASK_QUEUE_URL = "amqp://vlagvbqp:zH8auLJC7sn8neTLOCiTdbvd6oO1r-TI@elephant.rmq.cloudamqp.com/vlagvbqp"
 LOG_CLICKS_TASK_QUEUE_NAME = "news-recommendation-log-clicks-task-queue"
 
 redis_client = redis.StrictRedis(REDIS_HOST, REDIS_PORT, db=0)
@@ -60,7 +60,7 @@ def getNewsSummariesForUser(user_id, page_num):
 
         sliced_news = total_news[begin_index:end_index]
 
-    # # Get preference for the user
+    # Get preference for the user
     preference = news_recommendation_service_client.getPreferenceForUser(user_id)
     topPreference = None
 

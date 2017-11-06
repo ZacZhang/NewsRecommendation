@@ -1,5 +1,4 @@
 lxml
-newspaper
 python-jsonrpc
 pandas
 pymongo
